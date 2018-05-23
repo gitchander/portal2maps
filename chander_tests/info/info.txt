@@ -1,0 +1,21 @@
+//-------------------------------------------------------------------------
+https://www.reddit.com/r/PortalMaps/comments/2bincj/how_to_update_a_map_in_the_peti_editor_without/
+
+//-------------------------------------------------------------------------
+Chander Test 6
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=130697759
+
+130697759 (10) = 7CA4A1F (16)
+
+In the directory:
+	~/.steam/steam/steamapps/common/Portal 2/portal2/maps/workshop/
+
+With mc find the file: thumb130697759.jpg.
+
+Find result:
+1361624961.bsp
+thumb130697759.jpg
+
+//-------------------------------------------------------------------------
+
