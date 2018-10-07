@@ -28,4 +28,18 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=103218343
 thumb103218343.jpg
 
 //-------------------------------------------------------------------------
+Chander Test 3
 
+https://steamcommunity.com/sharedfiles/filedetails/?id=158975058
+
+158975058 (10) = 979C452 (16)
+
+To find file:
+$ locate -r thumb158975058.jpg
+
+~/.steam/steam/steamapps/common/Portal 2/portal2/maps/workshop/595883498813799653/thumb158975058.jpg
+
+1373055018.bsp
+thumb158975058.jpg
+
+//-------------------------------------------------------------------------
