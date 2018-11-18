@@ -43,3 +43,26 @@ $ locate -r thumb158975058.jpg
 thumb158975058.jpg
 
 //-------------------------------------------------------------------------
+Chander Test 7
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=138389414
+
+138389414 (10) = 83FA7A6 (16)
+
+$ locate -r thumb138389414.jpg
+/home/chander/.local/share/Steam/steamapps/common/Portal 2/portal2/maps/workshop/560972542149456105/thumb138389414.jpg
+
+$ find . -name thumb138389414.jpg
+./workshop/560972542149456105/thumb138389414.jpg
+
+$ find . -name "thumb138389414.*"
+./workshop/560972542149456105/thumb138389414.jpg
+
+$ find -name "*138389414.*"
+./workshop/560972542149456105/thumb138389414.jpg
+
+$ cd workshop/560972542149456105
+$ ls
+
+1363982465.bsp  thumb138389414.jpg
+//-------------------------------------------------------------------------
