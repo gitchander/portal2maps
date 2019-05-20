@@ -4,12 +4,12 @@
 	"Version"		"14"
 	"FileID"		"0x0000000007CA4A1F"
 	"Timestamp_Created"		"0x000000005B049238"
-	"Timestamp_Modified"		"0x000000005BA17AEF"
-	"CompileTime"		"115.422997"
+	"Timestamp_Modified"		"0x000000005CE31F8B"
+	"CompileTime"		"114.012001"
 	"Coop"		"0"
 	"Title"		"Chander Test 6"
 	"Description"		"name: laser suite;
-ver: 2.4"
+ver: 2.4.2"
 	"PreviewDirty"		"0"
 	"ChamberSize"		"15 25 6"
 	"Voxels"
@@ -1340,11 +1340,11 @@ ver: 2.4"
 		"Item"
 		{
 			"Index"		"40"
-			"Type"		"ITEM_LASER_RELAY_OFFSET"
+			"Type"		"ITEM_LASER_RELAY_CENTER"
 			"Deletable"		"1"
 			"VoxelPos"		"7 11 2"
 			"LocalPos"		"0 0 0"
-			"Angles"		"0 -90 0"
+			"Angles"		"0 90 0"
 			"Facing"		"0 0 0"
 			"ConnectionVisiblity"		"0"
 		}
@@ -1515,7 +1515,7 @@ ver: 2.4"
 			"VoxelPos"		"1 16 3"
 			"LocalPos"		"0 0 0"
 			"Angles"		"0 90 90"
-			"ITEM_PROPERTY_CONNECTION_COUNT"		"2"
+			"ITEM_PROPERTY_CONNECTION_COUNT"		"1"
 			"ITEM_PROPERTY_BARRIER_HAZARD_TYPE"		"0"
 			"ITEM_PROPERTY_START_ENABLED"		"1"
 			"Facing"		"0 0 0"
@@ -2677,18 +2677,6 @@ ver: 2.4"
 			"Facing"		"0 0 0"
 			"ConnectionVisiblity"		"0"
 		}
-		"Item"
-		{
-			"Index"		"158"
-			"Type"		"ITEM_BUTTON_FLOOR"
-			"Deletable"		"1"
-			"VoxelPos"		"2 11 2"
-			"LocalPos"		"0 0 0"
-			"Angles"		"0 0 0"
-			"ITEM_PROPERTY_BUTTON_TYPE"		"1"
-			"Facing"		"0 0 0"
-			"ConnectionVisiblity"		"0"
-		}
 	}
 	"Connections"
 	{
@@ -3201,12 +3189,6 @@ ver: 2.4"
 			"Sender"		"154"
 			"Receiver"		"157"
 			"Type"		"CONNECTION_BARRIER_ANCHOR_TO_EXTENT"
-		}
-		"Connection"
-		{
-			"Sender"		"158"
-			"Receiver"		"55"
-			"Type"		"CONNECTION_STANDARD"
 		}
 	}
 }
