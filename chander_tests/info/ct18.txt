@@ -1,0 +1,30 @@
+Chander Test 18
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=147480063
+
+147480063 (10) = 8CA5DFF (16)
+
+$ locate -r thumb147480063.jpg
+
+~/.local/share/Steam/steamapps/common/Portal 2/portal2/maps/workshop/597005142559067105/thumb147480063.jpg
+
+$ cd '~/.local/share/Steam/steamapps/common/Portal 2/portal2/maps/workshop/597005142559067105'
+
+$ ls
+
+1369080923.bsp  thumb147480063.jpg
+
+cd '~/.local/share/Steam/steamapps/common/Portal 2/portal2/puzzles/76561198040911575'
+
+make files:
+
+1369080923.p2c
+1369080923.jpg
+
+In file 1369080923.p2c:
+change:
+	"FileID"                "0x0000000008CA5DFF"
+	"Title"         "Chander Test 18"
+	"Description"           "name: MindShift; version: 1.3"
+
+
