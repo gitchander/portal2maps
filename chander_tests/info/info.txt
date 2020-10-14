@@ -65,4 +65,29 @@ $ cd workshop/560972542149456105
 $ ls
 
 1363982465.bsp  thumb138389414.jpg
+
+//-------------------------------------------------------------------------
+Chander Test 10
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=77097797
+
+77097797 (10) = 4986B45 (16)
+
+$ locate -r thumb77097797.jpg
+/portal2/maps/workshop/558697910662415851/thumb77097797.jpg
+
+$ find . -name thumb77097797.jpg
+./maps/workshop/558697910662415851/thumb77097797.jpg
+
+$ find . -name "thumb77097797.*"
+./maps/workshop/558697910662415851/thumb77097797.jpg
+
+$ find -name "*77097797.*"
+./maps/workshop/558697910662415851/thumb77097797.jpg
+
+$ cd maps/workshop/558697910662415851
+$ ls
+
+1339851782.bsp  thumb77097797.jpg
+
 //-------------------------------------------------------------------------
