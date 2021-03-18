@@ -109,4 +109,11 @@ $ ls -1
 1385931188.bsp
 thumb265808454.jpg
 
+$ cd ".steam/debian-installation/steamapps/common/Portal 2/portal2/puzzles/76561198040911575"
+
+result files:
+
+1385931188.jpg
+1385931188.p2c
+
 //-------------------------------------------------------------------------
