@@ -91,3 +91,22 @@ $ ls
 1339851782.bsp  thumb77097797.jpg
 
 //-------------------------------------------------------------------------
+Chander Test 26
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=265808454
+
+265808454 (base 10) = FD7EA46 (base 16)
+
+$ locate -r thumb265808454.jpg
+.steam/debian-installation/steamapps/common/Portal 2/portal2/maps/workshop/558757431061629149/thumb265808454.jpg
+
+$ find . -name "thumb265808454.*"
+./.steam/debian-installation/steamapps/common/Portal 2/portal2/maps/workshop/558757431061629149/thumb265808454.jpg
+
+$ cd ".steam/debian-installation/steamapps/common/Portal 2/portal2/maps/workshop/558757431061629149"
+
+$ ls -1
+1385931188.bsp
+thumb265808454.jpg
+
+//-------------------------------------------------------------------------
