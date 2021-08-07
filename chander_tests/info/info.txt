@@ -117,3 +117,29 @@ result files:
 1385931188.p2c
 
 //-------------------------------------------------------------------------
+Chander Test 22
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=176832005
+
+176832005 (base 10) = A8A3E05 (base 16)
+
+$ locate -r thumb176832005.jpg
+
+./.local/share/Steam/steamapps/common/Portal 2/portal2/maps/workshop/599266384696081373/thumb176832005.jpg
+
+$ find . -name "thumb176832005.*"
+
+./.local/share/Steam/steamapps/common/Portal 2/portal2/maps/workshop/599266384696081373/thumb176832005.jpg
+
+$ cd "./.local/share/Steam/steamapps/common/Portal 2/portal2/maps/workshop/599266384696081373"
+
+$ ls
+
+1378641558.bsp  thumb176832005.jpg
+
+$ cd "./.local/share/Steam/steamapps/common/Portal 2/portal2/puzzles/76561198040911575"
+
+result files:
+
+1378641558.jpg
+1378641558.p2c
