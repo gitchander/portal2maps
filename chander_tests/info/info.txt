@@ -199,7 +199,7 @@ $ ls
 
 1369080923.bsp  thumb147480063.jpg
 
-cd '~/.local/share/Steam/steamapps/common/Portal 2/portal2/puzzles/76561198040911575'
+$ cd '~/.local/share/Steam/steamapps/common/Portal 2/portal2/puzzles/76561198040911575'
 
 make files:
 
@@ -211,3 +211,35 @@ change:
 	"FileID"                "0x0000000008CA5DFF"
 	"Title"         "Chander Test 18"
 	"Description"           "name: MindShift; version: 1.3"
+
+//------------------------------------------------------------------------------
+Chander Test 28
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=303281970
+
+303281970 (10) = 1213B732 (16)
+
+$ find . -name "thumb303281970.*"
+
+./.local/share/Steam/steamapps/common/Portal 2/portal2/maps/workshop/37473384253393673/thumb303281970.jpg
+
+$ cd './.local/share/Steam/steamapps/common/Portal 2/portal2/maps/workshop/37473384253393673'
+
+$ ls
+
+1407660032.bsp  thumb303281970.jpg
+
+$ cd ~
+
+$ cd './.local/share/Steam/steamapps/common/Portal 2/portal2/puzzles/76561198040911575'
+
+make files:
+
+1407660032.p2c
+1407660032.jpg
+
+In file 1407660032.p2c:
+change:
+	"FileID"                "0x000000001213B732"
+	"Title"         "Chander Test 28"
+	"Description"           "version: 1.3"
